@@ -408,10 +408,26 @@
 
 
 
-  
+
 
   
 
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://rubyhan.cn/2019/04/13/第3节-Go语言logo和版本/",
+  owner: 'rubyhan1314',
+  repo: 'rubyhan1314.github.io',
+  oauth: {
+    client_id: 'afd5680856dbf455f2e0',
+    client_secret: '2dce469c4625c96935e4d7b8d3b946fc6392a82c',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
   
 
 
